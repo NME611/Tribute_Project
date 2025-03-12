@@ -1,0 +1,127 @@
+/* Reset some basic styles */
+body, h1, h2, p, ul, li, figure, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    /* Background using gradient and symbolic color */
+    background: linear-gradient(to bottom right, #8b7c97, #fff);
+    /* Optional background pattern for subtle texture */
+    background-image: url"https://example.com/path-to-pattern.https://th.bing.com/th/id/R.4b667c127633ea04202fe971ffdc0aa6?rik=I%2bQNtaT0z6xQCA&pid=ImgRaw&r=0";
+    background-size: cover; /* Ensure full coverage */
+    padding: 20px;
+    display: flex; /* Use Flexbox on the body */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Ensure padding is included in total height */
+}
+
+/* Main container */
+#main {
+    max-width: 800px;
+    width: 100%;
+    background-color: #b6b0b0;
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: left; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Header section */
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#subtitle {
+    font-size: 1.2em;
+    color: #0c0c0c;
+}
+
+/* Image section */
+#image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Information section */
+#information {
+    margin-bottom: 20px;
+    
+}
+
+#information h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#information p {
+    margin-bottom: 10px;
+}
+
+#information ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#information li {
+    margin-bottom: 5px;
+}
+
+/* Quote section */
+#quote {
+    border-left: 4px solid #ccc;
+    margin: 20px 0;
+    padding-left: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+#quote cite {
+    display: block;
+    text-align: right;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Footer section */
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+#footer a {
+    color: #1765b8;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
